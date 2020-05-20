@@ -1,0 +1,12 @@
+analyze:
+    async: true
+    create-group: true
+    remappings:
+        - "chainlink/=./node_modules/chainlink/"
+        - "openzeppelin-solidity/=./node_modules/openzeppelin-solidity/"
+    targets:
+        - contracts/RewardsDistribution.sol
+        - contracts/Synthetix.sol
+        - contracts/Exchanger.sol
+        - contracts/EscrowChecker.sol
+        
